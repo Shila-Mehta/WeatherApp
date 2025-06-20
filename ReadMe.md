@@ -1,4 +1,5 @@
 🌦️ Weather App
+
 A responsive, user-friendly weather app that allows users to search for real-time weather data by city. Built with JavaScript, HTML, CSS, and a public weather API.
 
 📸  Live Demo / Live Preview
