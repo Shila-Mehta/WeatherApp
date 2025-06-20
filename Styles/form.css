@@ -1,0 +1,48 @@
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+
+}
+
+
+.user-search {
+  position: relative;
+  width: 85%;
+  padding: 1rem 2rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.user-search:focus {
+  border-color: #0077cc;
+}
+
+
+form button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.4s ease-in;
+}
+
+form button:hover {
+  background-color: #0056b3;
+   transform: scale(1.07);
+}
+
+form button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}

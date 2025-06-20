@@ -1,0 +1,42 @@
+@import './Styles/base.css';
+@import './Styles/layout.css';
+@import './Styles/Accordion-view.css';
+@import './Styles/day-card.css';
+@import './Styles/Tooltip.css';
+@import './Styles/form.css';
+@import './Styles/weather-dispaly.css';
+@import './Styles/FlipCard.css';
+@import './Styles/panel.css';
+@import './Styles/metric-area.css';
+@import './Styles/HourlyChart.css';
+
+
+
+h1{
+    text-align: center;
+    margin: 1rem 0;
+    background-color: rgb(55, 158, 241);
+    padding: 1rem;
+    color: white;
+    
+}
+
+
+.error-message {
+  background-color: #ffe5e5;
+  color: #b00020;
+  border: 1px solid #b00020;
+  border-radius: 5px;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+
+.show {
+  margin-top: 1rem;
+  color: #555;
+  font-style: italic;
+  font-size: 0.95rem;
+}

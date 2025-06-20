@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+     <script  type="module"    src="script.js" defer></script>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Weather App</title>
+ </head>
+ <body>
+
+   <div class="container">
+
+        <h1>   Weather  App</h1>
+   <form  >
+
+    <div class="form-container">
+     <label for="user_search"> 
+      <input   type="search" name="user_search" id="user_search"   class="user-search" placeholder="Search for  a  Location"  aria-label="search city for weather">
+    </label>
+
+     <button type="submit">Submit</button>
+
+    </div>
+    
+
+     <p class="panel-label"  hidden>Recent Searches:</p>
+     <div class="panel"  hidden > 
+
+    </div>
+   
+
+    </form>
+
+     <div id="weather-display"  >
+       
+     </div>
+
+
+    
+     <div id="day-card"> </div>
+      
+    
+
+
+     <div class="metric-area">
+      <label for=" metric-design"> Format  for weather metrics:</label>
+      <select name="metric-design" id="metric-design">
+        <option value="Accordion">Accordion</option>
+        <option value="Tooltip">Tooltip</option>
+        <option value="Flip ">Flip Card</option>
+      </select>
+
+
+      <div class="Accordion-view"> 
+         <button  class="Accordion-btn"> show detailed metrics</button>
+         <div class="metrics-grid"  hidden >
+         </div>
+      </div>
+
+      <div class="Tooltip-view"></div>
+      
+      <div class="Flip-view">
+        <button class="Flip-btn">Flip Card</button>
+        <div class="metrics-grid" ></div>
+      </div>
+     </div>
+
+     <div class="chart-container"  >
+      <h2>Hourly Temperature</h2>
+      <canvas  id="hourly-chart"  width="600"  height="300"></canvas>
+     </div>
+   </div>
+ </body>
+ </html>
+

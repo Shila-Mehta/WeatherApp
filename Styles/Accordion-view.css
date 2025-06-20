@@ -1,0 +1,43 @@
+.Accordion-view{
+   display: none;
+   padding: 1rem;
+   flex-direction: column;
+   border:1px solid rgb(221, 220, 220);
+}
+
+
+.Accordion-btn {
+  background-color: #0077ff;
+  color: white;
+  padding: 1rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.metrics-grid {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  
+}
+
+.metrics-grid > div {
+  border: 1px solid rgb(180, 178, 178);
+  /* padding:0 1rem 1rem 1rem; */
+  text-align: center;
+  
+
+}
+
+.metric-container > div{
+  padding:1rem;
+}
+
+.metric-label{
+  display: block;
+  background-color: rgb(179, 177, 177);
+  padding-bottom:  0.5rem ;
+  width:100%;
+  
+}

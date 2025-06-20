@@ -1,0 +1,25 @@
+
+.chart-container h2{
+  text-align: center;
+}
+
+
+#hourly-chart {
+  max-width: 100%;
+}
+
+
+.chart-container {
+  display: none;
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+

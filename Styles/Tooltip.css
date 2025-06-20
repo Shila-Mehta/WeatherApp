@@ -1,0 +1,59 @@
+/* tooltip */
+
+.Tooltip-view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+}
+
+
+.metric-icon {
+  font-size: 5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.metric-icon:hover {
+  transform: scale(1.2);
+}
+
+
+.metric-tooltip-item {
+  position: relative;
+  display: inline-block;
+}
+
+
+.tooltip {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  z-index: 10;
+}
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+
