@@ -7,6 +7,12 @@ A responsive, user-friendly weather app that allows users to search for real-tim
   https://shila-mehta.github.io/WeatherApp/
 
 
+  Screen Shots
+
+  <img width="1944" height="4056" alt="shila-mehta github io_WeatherApp_" src="https://github.com/user-attachments/assets/788575ea-1552-4a15-b45a-f1d5357ca4fc" />
+
+
+
 🧩 Features
 🔍 Search by city name
 
