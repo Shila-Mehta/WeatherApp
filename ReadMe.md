@@ -15,12 +15,8 @@ A responsive, user-friendly weather app that allows users to search for real-tim
 
 
 
-
-
 🧩 Features
 🔍 Search by city name
-
-📍 Optionally detect and use your current location
 
 🌡️ Display:
 
@@ -36,8 +32,6 @@ Weather conditions (icons)
 
 🎛️ Multiple display modes (tooltip, accordion, flip card)
 
-🌙 Light/dark mode toggle (optional)
-
 🛠️ Tech Stack
 HTML5
 
@@ -47,7 +41,68 @@ JavaScript (ES6+)
 
 Chart.js – for hourly data visualization
 
-Public Weather API (e.g., OpenWeatherMap or WeatherAPI)
+Public Weather API (https://weather.visualcrossing.com)
+
+
+Project Structure:
+```
+└── 📁WeatherApp
+            └── 📁Components
+        ├── createDayCardElements.js
+        ├── createElement.js
+        ├── createMetricsGrideElements.js
+        ├── createPanelElements.js
+        ├── createWeatherDisplayCard.js
+        ├── matricsFlipElements.js
+        ├── MetricsTooltipsElements.js
+    └── 📁data
+        ├── ForCastData.js
+        ├── HourlyChartData.js
+        ├── metricsData.js
+        ├── UpdateSearchHistory.js
+        ├── weatherAppState.js
+        ├── WeatherService.js
+    └── 📁Events
+        ├── Accordion-view.js
+        ├── FlipCard-View.js
+        ├── FormSubmitHandler.js
+        ├── metricsContainersVisiblity.js
+        ├── PanelClickevent.js
+        ├── ToolTip-View.js
+    └── 📁Styles
+        ├── Accordion-view.css
+        ├── base.css
+        ├── day-card.css
+        ├── FlipCard.css
+        ├── form.css
+        ├── HourlyChart.css
+        ├── layout.css
+        ├── metric-area.css
+        ├── panel.css
+        ├── Tooltip.css
+        ├── weather-dispaly.css
+    └── 📁Utils
+        ├── APICommunicator.js
+        ├── controlChartDisplay.js
+        ├── controlVisiblity.js
+        ├── debounce.js
+        ├── DisplayController.js
+        ├── handleMetricAreaToggle.js
+        ├── handlePanelToggle.js
+        ├── handleWeatherDisplayToggle.js
+        ├── handleWeatherFetch.js
+        ├── LoadingController.js
+        ├── showErrorAndDisableSubmit.js
+        ├── showErrorandEnableSubmit.js
+        ├── ToggleDayCard.js
+    ├── index.html
+    ├── LivePreviewController.js
+    ├── main.css
+    ├── ReadMe.md
+    ├── renderHourlyChart.js
+    ├── script.js
+    └── weatherView.js
+```
 
 🔧 Installation
 
