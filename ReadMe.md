@@ -9,7 +9,7 @@ A responsive, user-friendly weather app that allows users to search for real-tim
 
   Screen Shots
 
-  <img width="1944" height="4056" alt="shila-mehta github io_WeatherApp_" src="https://github.com/user-attachments/assets/788575ea-1552-4a15-b45a-f1d5357ca4fc" />
+<img width="867" height="1905" alt="127 0 0 1_5500_ (3)" src="https://github.com/user-attachments/assets/10d78a6d-3407-46c7-a9db-5b7be82980c1" />
 
 
 
