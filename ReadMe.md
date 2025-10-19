@@ -10,6 +10,8 @@ A responsive, user-friendly weather app that allows users to search for real-tim
   Screen Shots
 
 <img width="530" height="560" alt="image" src="https://github.com/user-attachments/assets/42234ebc-a264-4c18-9869-6e38fa7ee36a" />
+<img width="517" height="587" alt="image" src="https://github.com/user-attachments/assets/603a1d92-71e4-4025-8755-682d1b5fb7f6" />
+
 
 
 
