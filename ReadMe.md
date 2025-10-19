@@ -9,8 +9,10 @@ A responsive, user-friendly weather app that allows users to search for real-tim
 
   Screen Shots
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/42234ebc-a264-4c18-9869-6e38fa7ee36a" />
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/603a1d92-71e4-4025-8755-682d1b5fb7f6" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/42234ebc-a264-4c18-9869-6e38fa7ee36a" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/603a1d92-71e4-4025-8755-682d1b5fb7f6" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/0c0e351b-7d5d-489f-b8e1-ba4090850823" />
+
 
 
 
